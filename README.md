@@ -1,0 +1,2 @@
+# Hardhat-Fireblocks-Sample
+Fireblocksの鍵を使えるように設定したHardhatサンプルプロジェクトです。
