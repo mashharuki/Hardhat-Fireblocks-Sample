@@ -40,6 +40,12 @@ cd backend
     yarn coverage
   ```
 
+- タスク実行
+
+  ```bash
+  npx hardhat getOwner --network localhost
+  ```
+
 ### 参考文献
 
 1. [GitHub - hardhat-fireblocks](https://github.com/fireblocks/hardhat-fireblocks)

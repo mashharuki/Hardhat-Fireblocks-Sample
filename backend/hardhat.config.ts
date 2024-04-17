@@ -19,7 +19,7 @@ const {
 
 const SKIP_LOAD = process.env.SKIP_LOAD === "true";
 if (!SKIP_LOAD) {
-  const taskPaths = ["util"];
+  const taskPaths = ["mock", "util"];
   taskPaths.forEach((folder) => {
     const tasksPath = path.join(__dirname, "tasks", folder);
     fs.readdirSync(tasksPath)
